@@ -26,9 +26,11 @@ public class Solution {
         y=s.nextInt();
         n=s.nextInt();
         if ((d+m+y)%4==0&&(d+m+y)%3==0)
+{
             if (n>=50&&n<=100)
             {
                 System.out.println("Cinema Day");
+}
             }
         else
         {
