@@ -1,0 +1,36 @@
+Write a program to print the sum of the given numbers. The values must be scanned until the user enters -1 as value.
+
+Input Format
+
+Input consists of a list of integers.
+
+Constraints
+
+1<=n<=10^7
+
+Output Format
+
+The output consists of the sum of the given integers.
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+       Scanner s=new Scanner(System.in);
+        int num;
+        num=s.nextInt();
+        int sum=0;
+        while(num!=-1)
+        {
+                    sum=sum+num;
+            num=s.nextInt();
+        }
+
+            
+             System.out.println(sum);
+        
+    
+        
+    }
+}
